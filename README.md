@@ -96,18 +96,7 @@ python test.py --name [name_of_experiment] --dataset_mode [dataset_mode] --datar
 
 where `[name_of_experiment]` is the directory name of the checkpoint created during training. If you are running on CPU mode, append `--gpu_ids -1`.
 
- <!-- where `[name_of_experiment]` is the directory name of the checkpoint created during training, which should be one of `coco_pretrained`, `ade20k_pretrained`, and `cityscapes_pretrained`. `[dataset]` can be one of `coco`, `ade20k`, and `cityscapes`, and `[path_to_dataset]`, is the path to the dataset. If you are running on CPU mode, append `--gpu_ids -1`. -->
-
 Use `--results_dir` to specify the output directory. `--num_test` will specify the maximum number of images to generate. By default, it loads the latest checkpoint. It can be changed using `--which_epoch`.
-
-<!--
-1. Download the tar of the pretrained models from the [Google Drive Folder](https://drive.google.com/file/d/12gvlTbMvUcJewQlSEaZdeb2CdOB-b8kQ/view?usp=sharing), save it in 'checkpoints/', and run
-
-    ```bash
-    cd checkpoints
-    tar xvf checkpoints.tar.gz
-    cd ../
-    ``` -->
 
 ## Code Structure
 
