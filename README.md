@@ -4,7 +4,7 @@
 
 We provide a PyTorch implementation of our contrastive feature loss presented in:
 
-[Contrastive Feature Loss for Image Predcition](https://arxiv.org/abs/2111.06934)
+[Contrastive Feature Loss for Image Prediction](https://arxiv.org/abs/2111.06934)
 [Alex Andonian](https://www.alexandonian.com), [Taesung Park](https://taesung.me/), [Bryan Russell](https://bryanrussell.org/), [Phillip Isola](http://web.mit.edu/phillipi/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Richard Zhang](https://richzhang.github.io/)
 
 Presented in AIM Workshop at ICCV 2021
